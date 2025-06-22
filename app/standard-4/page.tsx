@@ -37,9 +37,9 @@ const standard4KeyIdeas: PhysicsRegentsKeyIdea[] = [
 			},
 			{
 				title:
-					"4.3 Explain variations in wavelength and frequency in terms of the source of the vibra tions that produce them, e.g., molecules, electrons, and nuclear particles.",
+					"4.3 Explain variations in wavelength and frequency in terms of the source of the vibrations that produce them, e.g., molecules, electrons, and nuclear particles.",
 				points: [
-					"compare the characteristics of two transverse waves such as amplitude, fre quency, wavelength, speed, period, and phase",
+					"compare the characteristics of two transverse waves such as amplitude, frequency, wavelength, speed, period, and phase",
 					"draw wave forms with various characteristics",
 					"identify nodes and antinodes in standing waves",
 					"differentiate between transverse and longitudinal waves",
@@ -72,7 +72,7 @@ const standard4KeyIdeas: PhysicsRegentsKeyIdea[] = [
 					"determine the acceleration due to gravity near the surface of Earth",
 					"determine the resultant of two or more vectors graphically or algebraically",
 					"draw scaled force diagrams using a ruler and a protractor",
-					"resolve a vector into perpendicular components both graphically and alge braically",
+					"resolve a vector into perpendicular components both graphically and algebraically",
 					"sketch the theoretical path of a projectile",
 					"use vector diagrams to analyze mechanical systems (equilibrium and non- equilibrium)",
 					"verify Newton’s Second Law for linear motion",
@@ -95,7 +95,7 @@ const standard4KeyIdeas: PhysicsRegentsKeyIdea[] = [
 	},
 ];
 
-export default function Home() {
+export default function Standard4() {
 	return (
 		<div className="flex items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
 			<main className="flex flex-col gap-[32px] row-start-2 items-start font-serif text-pretty">

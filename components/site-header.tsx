@@ -1,6 +1,6 @@
-import { siteConfig } from "@/lib/config";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
+import { siteConfig } from "@/lib/config";
 
 export function SiteHeader() {
 	return (
@@ -12,6 +12,9 @@ export function SiteHeader() {
 					</Button>
 					<Button variant="link" className="font-bold">
 						<Link href="/standard-4">Standard 4</Link>
+					</Button>
+					<Button variant="link" className="font-bold">
+						<Link href="/quiz">Quiz</Link>
 					</Button>
 				</div>
 			</div>

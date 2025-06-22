@@ -29,7 +29,7 @@ export function KeyIdeasTable({
 								</th>
 							</tr>
 							<tr>
-								<td className="px-6 py-4 whitespace-nowrap">
+								<td className="px-6 py-4">
 									{keyIdea.sections.map((section, secIndex) => (
 										<React.Fragment key={`section-${keyIdea.key}-${secIndex}`}>
 											{section.title && (
