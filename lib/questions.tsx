@@ -1,7 +1,10 @@
 export interface Question {
 	content: string;
+	image?: string;
+	caption?: string;
 	choices: string[];
 	correct: string;
+	className?: string;
 }
 
 export const questions: Question[] = [
@@ -24,8 +27,8 @@ export const questions: Question[] = [
 	{
 		content:
 			"A car, initially traveling at 25 meters per second, is uniformly brought to rest as the brakes are applied over a distance of 40. meters. The magnitude of the average acceleration of the car while braking is",
-		choices: ["0.31 m/s2", "0.63 m/s2", "7.8 m/s2", "16 m/s2"],
-		correct: "7.8 m/s2", // Using v^2 = u^2 + 2as => 0 = 25^2 + 2*a*40 => 0 = 625 + 80a => a = -625/80 = -7.8125 m/s^2. Magnitude is 7.8 m/s^2.
+		choices: ["0.31 m/s²", "0.63 m/s²", "7.8 m/s²", "16 m/s²"],
+		correct: "7.8 m/s²", // Using v^2 = u^2 + 2as => 0 = 25^2 + 2*a*40 => 0 = 625 + 80a => a = -625/80 = -7.8125 m/s^2. Magnitude is 7.8 m/s^2.
 	},
 	{
 		content:
@@ -79,5 +82,21 @@ export const questions: Question[] = [
 			"to the same maximum height and the same distance horizontally",
 		],
 		correct: "both higher and farther horizontally",
+		className: "mb-12 sm:mb-4",
+	},
+	{
+		content:
+			"A photon collides with an electron, as represented in the diagram below.",
+		image: "/photon-collision.svg",
+		caption:
+			"After the collision, the electron recoils and the photon is scattered in another direction with a longer wavelength than the incident photon. The increase in photon wavelength results because, during the collision, the photon",
+		choices: [
+			"loses energy to the electron",
+			"gains momentum from the electron",
+			"loses some speed",
+			"generates a magnetic field",
+		],
+		correct: "loses energy to the electron",
+		className: "h-full gap-4",
 	},
 ];

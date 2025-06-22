@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useCallback, useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { type Question, questions } from "@/lib/questions";
@@ -56,13 +57,24 @@ export default function QuizPage() {
 				<div className="p-6 rounded-lg shadow-lg">
 					<div
 						className={cn(
-							currentQuestion.content.length > 200 ? "mb-16" : "mb-4",
-							"h-48 sm:h-32 flex items-end justify-start sm:mb-4",
+							currentQuestion.className || "h-full",
+							"flex flex-col items-center justify-start sm:mb-4",
 						)}
 					>
-						<h2 className="text-xl font-semibold text-left leading-tight text-pretty">
+						<div className="text-lg text-left leading-tight text-pretty">
 							{currentQuestion.content}
-						</h2>
+						</div>
+						{currentQuestion.image ? (
+							<Image
+								src={currentQuestion.image}
+								alt={currentQuestion.caption || currentQuestion.content}
+								width={200}
+								height={200}
+							/>
+						) : null}
+						<div className="text-lg text-left leading-tight text-pretty">
+							{currentQuestion.caption}
+						</div>
 					</div>
 
 					<div className="h-[200px] space-y-3 mb-4 flex flex-col justify-center">
