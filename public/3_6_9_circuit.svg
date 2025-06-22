@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg version="1.1" id="svg1" width="85.333252" height="166.69049" viewBox="0 0 85.333252 166.69049"
+   xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+   <defs id="defs1">
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath663">
+         <path d="m 132.988,240.3 h 69.801 v 129 h -69.801 z" transform="matrix(1,0,0,-1,-154.4904,358.91391)"
+            id="path663" />
+      </clipPath>
+   </defs>
+   <g id="g581" transform="translate(-3525.1426,-566.56268)">
+      <g id="g660">
+         <g id="g1289">
+            <text id="text662" xml:space="preserve" transform="matrix(1.3333333,0,0,1.3333333,3549.9872,577.44813)"
+               clip-path="url(#clipPath663)">
+               <tspan id="tspan662"
+                  style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;font-family:Arial;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                  x="0" y="0">3.0 </tspan>
+               <tspan id="tspan663"
+                  style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;font-family:Symbol;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                  x="18.348" y="0">Ω</tspan>
+            </text>
+            <path id="path664" d="M 0,0 V 13.125"
+               style="fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.864;stroke-dasharray:none;stroke-opacity:1"
+               transform="matrix(1.3333333,0,0,-1.3333333,3558.8091,728.66987)" />
+            <path id="path665" d="M 0,0 V 20"
+               style="fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.864;stroke-dasharray:none;stroke-opacity:1"
+               transform="matrix(1.3333333,0,0,-1.3333333,3565.1424,733.2532)" />
+            <path id="path666" d="M 0,0 V 13.188"
+               style="fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.864;stroke-dasharray:none;stroke-opacity:1"
+               transform="matrix(1.3333333,0,0,-1.3333333,3570.9757,728.71173)" />
+            <path id="path667" d="M 0,0 V 19.937"
+               style="fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.864;stroke-dasharray:none;stroke-opacity:1"
+               transform="matrix(1.3333333,0,0,-1.3333333,3577.1424,733.21173)" />
+            <path id="path668" d="M 0,0 H -25.656"
+               style="fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.864;stroke-dasharray:none;stroke-opacity:1"
+               transform="matrix(1.3333333,0,0,-1.3333333,3559.4339,719.91987)" />
+            <path id="path669" d="M 0,0 H -24.656"
+               style="fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.864;stroke-dasharray:none;stroke-opacity:1"
+               transform="matrix(1.3333333,0,0,-1.3333333,3610.4756,719.91987)" />
+            <path id="path670" d="M 0,0 H -18.556"
+               style="fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.864;stroke-dasharray:none;stroke-opacity:1"
+               transform="matrix(1.3333333,0,0,-1.3333333,3609.8089,587.45253)" />
+            <path id="path671" d="m 0,0 18.852,0.016 2.031,4.547 4.627,-9 3.701,9 4.627,-9 4.626,9 3.702,-9 2.775,5"
+               style="fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.864;stroke-dasharray:none;stroke-opacity:1"
+               transform="matrix(1.3333333,0,0,-1.3333333,3525.4757,587.8756)" />
+            <path id="path672" d="M 0,0 H -18.556"
+               style="fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.864;stroke-dasharray:none;stroke-opacity:1"
+               transform="matrix(1.3333333,0,0,-1.3333333,3609.8089,639.1192)" />
+            <path id="path673" d="m 0,0 18.602,0.016 2.031,4.547 4.627,-9 3.701,9 4.627,-9 4.626,9 3.702,-9 2.775,5"
+               style="fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.864;stroke-dasharray:none;stroke-opacity:1"
+               transform="matrix(1.3333333,0,0,-1.3333333,3525.8091,639.54227)" />
+            <path id="path674" d="M 0,0 H -18.556"
+               style="fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.864;stroke-dasharray:none;stroke-opacity:1"
+               transform="matrix(1.3333333,0,0,-1.3333333,3609.8089,690.1192)" />
+            <path id="path675" d="m 0,0 18.852,0.016 2.031,4.547 4.627,-9 3.701,9 4.627,-9 4.626,9 3.702,-9 2.775,5"
+               style="fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.864;stroke-dasharray:none;stroke-opacity:1"
+               transform="matrix(1.3333333,0,0,-1.3333333,3525.4757,690.54227)" />
+            <text id="text675" xml:space="preserve" transform="matrix(1.3333333,0,0,1.3333333,3549.9872,629.1564)">
+               <tspan id="tspan675"
+                  style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;font-family:Arial;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                  x="0" y="0">6.0 </tspan>
+               <tspan id="tspan676"
+                  style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;font-family:Symbol;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                  x="18.348" y="0">Ω</tspan>
+               <tspan id="tspan677"
+                  style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;font-family:Arial;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                  x="0" y="38.005001">9.0 </tspan>
+               <tspan id="tspan678"
+                  style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11px;font-family:Symbol;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                  x="18.348" y="38.005001">Ω</tspan>
+            </text>
+            <path id="path678" d="M 0,0 V -100"
+               style="fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.864;stroke-dasharray:none;stroke-opacity:1"
+               transform="matrix(1.3333333,0,0,-1.3333333,3525.8091,587.252)" />
+            <path id="path679" d="M 0,0 V -99.25"
+               style="fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.864;stroke-dasharray:none;stroke-opacity:1"
+               transform="matrix(1.3333333,0,0,-1.3333333,3609.8089,587.252)" />
+         </g>
+      </g>
+   </g>
+</svg>

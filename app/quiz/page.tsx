@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useCallback, useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
+import { formatText } from "@/lib/formatText";
 import { type Question, questions } from "@/lib/questions";
 import { cn } from "@/lib/utils";
 
@@ -11,6 +12,9 @@ export default function QuizPage() {
 	const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
 	const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
 	const [showFeedback, setShowFeedback] = useState<boolean>(false);
+	const [feedbackExplanation, setFeedbackExplanation] = useState<string | null>(
+		null,
+	);
 
 	const getRandomQuestion = useCallback(() => {
 		const randomIndex = Math.floor(Math.random() * questions.length);
@@ -29,8 +33,10 @@ export default function QuizPage() {
 	};
 
 	const handleCheckAnswer = () => {
-		if (selectedAnswer !== null) {
+		if (selectedAnswer !== null && currentQuestion) {
 			setShowFeedback(true);
+			const selectedIndex = currentQuestion.choices.indexOf(selectedAnswer);
+			setFeedbackExplanation(currentQuestion.explanations[selectedIndex + 1]);
 		}
 	};
 
@@ -38,6 +44,7 @@ export default function QuizPage() {
 		setShowFeedback(false);
 		setSelectedAnswer(null);
 		setIsCorrect(null);
+		setFeedbackExplanation(null);
 		setCurrentQuestion(getRandomQuestion());
 	};
 
@@ -62,18 +69,20 @@ export default function QuizPage() {
 						)}
 					>
 						<div className="text-lg text-left leading-tight text-pretty">
-							{currentQuestion.content}
+							{formatText(currentQuestion.content)}
 						</div>
 						{currentQuestion.image ? (
 							<Image
 								src={currentQuestion.image}
 								alt={currentQuestion.caption || currentQuestion.content}
-								width={200}
-								height={200}
+								width={400}
+								height={400}
 							/>
 						) : null}
 						<div className="text-lg text-left leading-tight text-pretty">
-							{currentQuestion.caption}
+							{currentQuestion.caption
+								? formatText(currentQuestion.caption)
+								: ""}
 						</div>
 					</div>
 
@@ -96,7 +105,7 @@ export default function QuizPage() {
 								disabled={showFeedback}
 								className="w-full justify-start text-left whitespace-normal h-auto py-2"
 							>
-								{choice}
+								{formatText(choice)}
 							</Button>
 						))}
 					</div>
@@ -136,7 +145,16 @@ export default function QuizPage() {
 									: "bg-transparent opacity-0",
 							)}
 						>
-							{showFeedback ? feedbackMessage : " "}
+							{showFeedback ? (
+								<>
+									<p className="font-bold mb-2">{feedbackMessage}</p>
+									<p>
+										{feedbackExplanation ? formatText(feedbackExplanation) : ""}
+									</p>
+								</>
+							) : (
+								" "
+							)}
 						</div>
 					</div>
 				</div>

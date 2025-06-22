@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="102.77393"
+   height="138.45242"
+   viewBox="0 0 102.77393 138.45242"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath623">
+      <path
+         d="M 45.364,420.6 H 289.109 V 692.168 H 45.364 Z"
+         transform="translate(-96.148277,-533.49442)"
+         id="path623" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath625">
+      <path
+         d="M 45.364,420.6 H 289.109 V 692.168 H 45.364 Z"
+         transform="translate(-66.773327,-532.24441)"
+         id="path625" />
+    </clipPath>
+  </defs>
+  <g
+     id="g581"
+     transform="translate(-3431.9703,-332.17414)">
+    <path
+       id="path622"
+       d="M 0,0 C 0,4.901 3.974,8.875 8.875,8.875 13.776,8.875 17.75,4.901 17.75,0 17.75,-4.901 13.776,-8.875 8.875,-8.875 3.974,-8.875 0,-4.901 0,0 Z"
+       style="fill:none;stroke:#231f20;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.864;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(1.3333333,0,0,-1.3333333,3472.1977,344.67413)"
+       clip-path="url(#clipPath623)" />
+    <path
+       id="path624"
+       d="m 0,0 h 30.656 c 0.075,-0.906 0.708,-1.569 1.61,-1.687 1.005,-0.132 1.439,0.774 2.078,1.562 0.806,0.995 1.25,1.625 1.187,3.063 -0.04,0.918 -0.28,1.994 -1.187,1.999 -0.918,0.006 -1.188,-1.136 -1.188,-2.031 0,-1.5 0.469,-1.969 1.25,-3.125 0.537,-0.795 0.938,-1.375 1.938,-1.375 1.028,0 1.336,0.779 1.937,1.532 0.8,1 1.25,1.624 1.188,3.062 -0.04,0.919 -0.281,1.994 -1.188,2 -0.918,0.006 -1.187,-1.136 -1.187,-2.031 0,-1.5 0.469,-1.969 1.25,-3.125 0.537,-0.796 0.844,-1.375 1.844,-1.375 1.028,0 1.404,0.761 2.031,1.531 0.808,0.993 1.25,1.625 1.187,3.063 -0.04,0.918 -0.28,1.994 -1.187,1.999 -0.918,0.006 -1.188,-1.136 -1.188,-2.031 0,-1.5 0.469,-1.969 1.25,-3.125 0.537,-0.795 1.016,-1.47 1.938,-1.375 0.8,0.082 1.562,1.344 1.562,1.344 H 76.25"
+       style="fill:none;stroke:#231f20;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.864;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(1.3333333,0,0,-1.3333333,3433.0311,346.3408)"
+       clip-path="url(#clipPath625)" />
+    <path
+       id="path626"
+       d="m 3491.716,405.52173 v -17.5"
+       style="fill:none;stroke:#231f20;stroke-width:1.33333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.864;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="path627"
+       d="M 3485.3827,410.10507 V 383.4384"
+       style="fill:none;stroke:#231f20;stroke-width:1.33333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.864;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="path628"
+       d="m 3479.5493,405.56347 v -17.584"
+       style="fill:none;stroke:#231f20;stroke-width:1.33333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.864;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="path629"
+       d="M 3473.3827,410.06347 V 383.4808"
+       style="fill:none;stroke:#231f20;stroke-width:1.33333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.864;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="path630"
+       d="m 3491.0923,396.77173 h 43.54"
+       style="fill:none;stroke:#231f20;stroke-width:1.33333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.864;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="path631"
+       d="m 3432.0493,396.77173 h 40.876"
+       style="fill:none;stroke:#231f20;stroke-width:1.33333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.864;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="path632"
+       d="m 3432.7447,346.33813 -0.032,36.008"
+       style="fill:none;stroke:#231f20;stroke-width:1.33333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.864;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="path652"
+       d="m 3432.7447,346.33813 -0.032,102.66933"
+       style="fill:none;stroke:#231f20;stroke-width:1.33333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.864;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="path653"
+       d="m 3534.078,346.33813 -0.031,102.66933"
+       style="fill:none;stroke:#231f20;stroke-width:1.33333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.864;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="path654"
+       d="m 3496.6352,449.5856 38.0027,0.0213"
+       style="fill:none;stroke:#231f20;stroke-width:1.33333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.864;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="path655"
+       d="m 3431.9712,449.5648 36.008,0.032"
+       style="fill:none;stroke:#231f20;stroke-width:1.33333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.864;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       id="path656"
+       d="M 3476.522,470.15467 3496.806,449.912"
+       style="fill:none;stroke:#231f20;stroke-width:1.33333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3.864;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       id="text656"
+       xml:space="preserve"
+       x="3489.656"
+       y="471.34799"
+       style="font-size:16px;stroke-width:1.33333"><tspan
+         id="tspan656"
+         style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:Arial;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333"
+         x="3489.656"
+         y="471.34799">S</tspan><tspan
+         id="tspan657"
+         style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.6667px;font-family:Arial;writing-mode:lr-tb;fill:#231f20;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333"
+         x="3471.1321"
+         y="292.78134">( 1 )</tspan></text>
+  </g>
+</svg>
